@@ -18,7 +18,7 @@ describe('GET/user', () => {
       .expect('Content-Type',/json/);
 
     expect(response.body).toEqual({
-      id: 303,
+      id: 6604101303,
       name: 'Kawintida',
       lastname: 'Phoongam',
       age: 19
